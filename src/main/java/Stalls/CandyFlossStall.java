@@ -1,0 +1,9 @@
+package Stalls;
+
+public class CandyFlossStall extends Stall {
+
+    public CandyFlossStall(String name, String ownerName, int parkingSpot){
+        super(name, ownerName, parkingSpot);
+        this.defaultPrice = 3.50;
+    }
+}
